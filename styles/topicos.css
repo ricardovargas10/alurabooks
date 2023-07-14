@@ -33,3 +33,27 @@
     padding: 1em;
     background-color: var(--laranja);
 }
+
+@media screen and (min-width: 1024px) {
+    .topicos {
+        padding-inline: 15em;
+    }
+
+    .topicos__titulo {
+        font-size: 24px;
+        padding-top: 2em;
+    }
+
+    .topicos__lista {
+        padding-bottom: 2em;
+    }
+
+    .topicos__item {
+        margin: 1.75em 0.5em;
+    }
+
+    .topicos__link {
+        font-size: 20px;
+        padding: 0.75em;
+    }
+}

@@ -1,5 +1,5 @@
 .contato {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--branco);
     padding: 1.5em;
 }
 
@@ -14,6 +14,8 @@
 .contato__titulo {
     font-size: 18px;
     font-weight: 500;
+    line-height: normal;
+    
 }
 
 .contato__texto {
@@ -35,4 +37,25 @@
     color: var(--azul);
     background: url("../img/email.svg") no-repeat;
     padding-left: 2.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        font-size: 24px;
+    }
+
+    .contato__descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
 }
