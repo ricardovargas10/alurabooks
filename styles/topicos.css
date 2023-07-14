@@ -34,9 +34,9 @@
     background-color: var(--laranja);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .topicos {
-        padding-inline: 15em;
+        padding-inline: 8em;
     }
 
     .topicos__titulo {
