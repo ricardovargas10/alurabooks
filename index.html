@@ -87,6 +87,7 @@
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+        <div class="carrossel__container">
             <div class="swiper">
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
@@ -103,7 +104,7 @@
             <div class="card">
                 <div class="card__descricao">
                     <div class="descricao">
-                        <h3 class="descricao__titulo">Você também se interesse por...</h3>
+                        <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
                         <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
                         <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
                     </div>
@@ -117,38 +118,41 @@
                     <a class="botoes__ancora" href="#">Saiba mais</a>
                 </div>
             </div>
+        </div>
     </section>
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
-        <div class="swiper">
-            <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./img/book/Nodejs.svg" alt="Livro sobre nodejs da alura books"></div>
-                <div class="swiper-slide"><img src="./img/book/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
-                <div class="swiper-slide"><img src="./img/book/Tuning.svg" alt="Livro sobre tunning da alura books"></div>
-                <div class="swiper-slide"><img src="./img/book/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
-                <div class="swiper-slide"><img src="./img/book/Arquitetura.svg" alt="Livro sobre arquitetura da alura books"></div>
-                <div class="swiper-slide"><img src="./img/book/Javascript.svg" alt="Livro sobre javascript da alura books"></div>
-            </div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-        <div class="card">
-            <div class="card__descricao">
-                <div class="descricao">
-                    <img src="img/estrelinhas.svg" alt="5 estrelas">
-                    <h3 class="descricao__titulo">Autora do mês</h3>
-                    <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                    <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+        <div class="carrossel__container">
+            <div class="swiper">
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/book/Nodejs.svg" alt="Livro sobre nodejs da alura books"></div>
+                    <div class="swiper-slide"><img src="./img/book/Portugol.svg" alt="Livro sobre portugol da alura books"></div>
+                    <div class="swiper-slide"><img src="./img/book/Tuning.svg" alt="Livro sobre tunning da alura books"></div>
+                    <div class="swiper-slide"><img src="./img/book/ApacheKafka.svg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                    <div class="swiper-slide"><img src="./img/book/Arquitetura.svg" alt="Livro sobre arquitetura da alura books"></div>
+                    <div class="swiper-slide"><img src="./img/book/Javascript.svg" alt="Livro sobre javascript da alura books"></div>
                 </div>
-                <img class="descricao__imagem" src="img/perfil-escritora-1.png" alt="Foto de Juliana Agarikov sorrindo">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="card__botoes">
-                <ul class="botoes">
-                    <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
-                    <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar ao carrinho"></li>
-                </ul>
-                <a class="botoes__ancora" href="#">Saiba mais</a>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <img src="img/estrelinhas.svg" alt="5 estrelas">
+                        <h3 class="descricao__titulo">Autora do mês</h3>
+                        <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                        <p class="descricao__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End.</p>
+                    </div>
+                    <img class="descricao__imagem" src="img/perfil-escritora-1.png" alt="Foto de Juliana Agarikov sorrindo">
+                </div>
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar ao carrinho"></li>
+                    </ul>
+                    <a class="botoes__ancora" href="#">Saiba mais</a>
+                </div>
             </div>
         </div>
     </section>
