@@ -34,6 +34,11 @@
     background-color: var(--laranja);
 }
 
+.topicos__link:hover {
+    color: var(--laranja);
+    background-color: var(--branco);
+}
+
 @media screen and (min-width: 768px) {
     .topicos {
         padding-inline: 8em;
